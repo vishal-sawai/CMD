@@ -1,0 +1,238 @@
+/* css reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ html{
+     scroll-behavior: smooth;
+ }
+
+ /* Navigation bar */
+ 
+ #navbar{
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0px;
+ }
+ /* navigation bar: list styling  */
+ #navbar ul{
+     display: flex;
+ }
+ #navbar::before{
+     content:"";
+     background-color: black;
+     position: absolute;
+     height:50px;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.6;
+     top: 0px;
+     left: 0px;
+ }
+ #navbar ul li{
+     list-style: none;
+     font-size: 1.5rem;
+ }
+ #navbar ul li a{
+     color: white;
+     display: block;
+     padding: 7px 20px;
+     border-radius: 20px;
+     text-decoration:none ;
+
+ }
+ #navbar ul li a:hover{
+     background-color: white;
+     color: black;
+ }
+ 
+ /* Home section */
+ #home{
+     display: flex;
+     flex-direction: column;
+     /* padding: 3px 200px; */
+     height: 600px;
+     justify-content: center;
+     align-items: center;
+ }
+ #home::before{
+    content:"";
+    background:url('img/money-plant.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+ }
+#home h1{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* Service section  */
+
+#services{
+    margin: 34px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#services .box{
+    border: 3px double #1ee94b;
+    background-color: burlywood;
+    margin: 3px 6px;
+    padding:34px;
+    border-radius: 30px;
+
+}
+#services .box img{
+    height: 120px;
+    width: 130px;
+   margin: auto;
+   display: block;
+    
+}
+#services .box .center{
+    padding-bottom: 10px;
+  
+}
+#service h1{
+    color:#47f56d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* client section  */
+
+#client-section{
+  height: 400px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('img/img8.jpg');
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+#client-section h1{
+    color:rgb(253, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+#clients img{
+    height: 120px;
+    margin: 20px;
+    margin-top: 200px;
+    border-radius: 100px;
+}
+/* Contact section  */
+#contact{
+    position: relative;
+
+}
+#contact .h-primary{
+    color:rgb(253, 95, 38);
+}
+#contact::before{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 800px;
+    opacity: 1;
+    z-index: -1;
+    background: url('img/contact.jpg') no-repeat center center/cover;
+    
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5 rem;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 8px;
+  border: 2px solid orange;
+  font-size: 1.1rem;
+}
+#contact-box button{
+    background-color:yellowgreen;
+margin-left: 210px;
+margin-top: 5px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-left: 5px;
+   
+}
+footer{
+    background:rgb(121, 24, 177);
+    color: white;
+    padding:9px 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+ /* utility class */
+
+.h-primary{
+     font-size: 2.8rem;
+     padding: 12px;
+     align-items: center;
+     justify-content: center;
+
+ }
+ .h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-size: 2rem;
+
+ }
+ .btn{
+     margin: 17px;
+     padding: 4px 20px ;
+     border:2px solid white ;
+     background-color: orange;
+     color: white;
+     font-size: 1.5rem;
+     border-radius: 10px;
+   
+ }
+ .btn:hover{
+     
+     background-color: greenyellow;
+     color: green;
+ }
+ .center{
+     text-align: center;
+ }
