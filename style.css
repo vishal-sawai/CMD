@@ -64,9 +64,33 @@ nav{
     margin: auto;
 }
 .t{
-    margin: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
     border: 2px solid blue;
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
+    width: 280px;
+    height: 270px;
+    background-color: skyblue;
+}
+.t-image1{
+    background: url("img/burgar.jpg")no-repeat center center/cover;
+}
+.t-image2{
+    background: url("img/bitcoins.jpg")no-repeat center center/cover;
+}
+.t-image3{
+    background: url("img/appetizing-bread-breakfast-close-up-357573.jpg")no-repeat center center/cover;
+}
+.t-image4{
+    background: url("img/hands-1063442_1920.jpg")no-repeat center center/cover;
+}
+.t-image5{
+    background: url("img/img9.jpg")no-repeat center center/cover;
+}
+.t-image{
+    width: 100%;
+    height: 170px;
+}
+.t-head{
+     padding: 10px 10px;
 }
