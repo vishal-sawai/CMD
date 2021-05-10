@@ -53,6 +53,22 @@ nav{
     font-size: 1.5rem;
 }
 
+/* Quote */
+.quote{
+    border: 2px solid black;
+    height: 125px;
+    background-color: black;
+    color: white;
+}
+.quote-line{
+    font-size: 30px;
+    margin: 16px 131px;
+    width: 1173px;
+    font-style: italic;
+}
+.quote-name{
+    float: right;
+}
 /* course */
 
 .c-head{
@@ -77,9 +93,6 @@ nav{
     cursor:pointer;
     box-shadow: 5px 10px 18px #888888;
 }
-.topic2{
-    width: 65%;
-}
 .t:hover{
     box-shadow: 5px 10px 18px red;
 }
@@ -103,7 +116,11 @@ nav{
 .t-image5{
     background: url("img/technical1.jpg")no-repeat center center/cover;
 }
+.t-image6{
+    background: url("img/mutual\ funds.webp")no-repeat center center/cover;
+}
 .t-head{
+    text-align: center;
     padding: 20px 23px;
 }
 .c-link{
