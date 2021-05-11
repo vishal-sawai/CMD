@@ -71,11 +71,11 @@ nav{
 }
 /* course */
 
-.c-head{
+.s-head{
     text-align: center;
     font-size: 25px;
 }
-#course{
+.section{
     padding-top: 51px;
 }
 .topic{
