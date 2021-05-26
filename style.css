@@ -41,11 +41,9 @@ nav{
 }
 .admin a{
     color:yellow;
-    float: left;
 }
 .m a:hover{
     color: rgb(243, 225, 225);
-    border-radius: 5px;
 }
 .admin a:hover{
     color: yellowgreen;
@@ -160,6 +158,78 @@ hr{
     text-decoration: none;
     color: black;
 }
+
+/* Admin Page */
+
+.Adminpage{
+background-color: #6874d0;
+}
+.Admin{
+    padding-top: 12%;
+    display: flex;
+    margin: auto;
+}
+.admin-icon{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 100px;
+
+}
+.a-name{
+    text-align: center;
+    margin-top: 10px;
+}
+.a-icon{
+  height: 180px;  
+}
+.a-img{
+    height: 100%;
+}
+
+.Login{
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+.Admin-heading{
+    text-align: center;
+    font-size: 45px;
+}
+.Admin-input-div{
+    margin: 25px 0px; 
+}
+.Admin-input-img{
+    height: 30px;
+    margin: -9px 5px;
+}
+.Admin-input{
+    border: none;
+    border-bottom: solid 1px;
+    width: 310px;
+    height: 25px;
+    padding: 2px 5px;
+    outline: none;
+}
+.Admin-button-div{
+    margin: 33px 0px; 
+}
+.Admin-button{
+    cursor: pointer;
+    background-color: darkgreen;
+    font-size: 30px;
+    width: 370px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+.Admin-button:hover{
+    background-color: rgb(7, 75, 7);
+}
+
+
 
 
 

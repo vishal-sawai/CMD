@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <input type="email" placeholder="Email Id"><br>
-    <input type="password" placeholder="Password"><br><br>
-    <button>LOGIN</button>
+
+<body class="Adminpage">
+
+    <!-- navbar -->
+    <div>
+        <nav>
+            <div class="menu-icons">
+                <img class="m-i" src="img/logo.jpg">
+            </div>
+            <ul class="menu">
+                <li class="m"><a href="#home">Home</a></li>
+                <li class="m"><a href="#course">Course</a></li>
+                <li class="m"><a href="#about">About</a></li>
+                <li class="m"><a href="#contact">Contact</a></li>
+                <li class="m admin"><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+
+        <!-- LoginPage -->
+        <div class="Admin">
+            <div class="Login">
+                <div class="admin-icon">
+                    <div class="a-icon">
+                        <img class="a-img" src="img/Admin-icon.png">
+                    </div>
+                    <div class="a-name">
+                        <h1>Admin</h1>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="Admin-heading">Login</h2>
+                        <div class="Admin-input-div">
+                            <img class="Admin-input-img" src="img/mail.png">
+                            <input class="Admin-input" type="email" placeholder="Email Id">
+                        </div>
+                        <div class="Admin-input-div">
+                            <img class="Admin-input-img" src="img/pass.png">
+                            <input class="Admin-input" type="password" placeholder="Password">
+                        </div>
+                        <div class="Admin-button-div">
+                            <button class="Admin-button">LOGIN</button>
+                        </div>
+                </div>
+            </div>
+        </div>
 </body>
+
 </html>
