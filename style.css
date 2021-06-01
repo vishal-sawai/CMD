@@ -228,6 +228,53 @@ background-color: #6874d0;
     background-color: rgb(7, 75, 7);
 }
 
+/* About us */
+
+.about-person{
+    display: flex;
+    /* border: 1px solid; */
+    margin: 1px;
+    width: 50%;
+    background-color: white ;
+}
+.about-img{
+    height: 290px;
+    /* margin: 0px 30px; */
+}
+.second-div{
+    margin: 10px 10px;
+}
+.second-div h3{
+    float: left;
+}
+.second-div p{
+    margin-top: 5px;
+    float: left;
+    text-align: left;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.aboutmain-div{
+    /* border: 1px blue solid; */
+    margin-top: 15px;
+}
+
+.naresh{
+    margin-right: 45%;
+    margin-left: 5%;
+}
+
+.vishal{
+    margin-left: 45%;  
+    margin-right: 5%; 
+    margin-top: -50px;
+    z-index: 10;
+}
+.naresh img{
+    margin-right: 0px;
+}
+
 
 
 
