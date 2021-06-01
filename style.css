@@ -229,17 +229,14 @@ background-color: #6874d0;
 }
 
 /* About us */
-
 .about-person{
     display: flex;
-    /* border: 1px solid; */
     margin: 1px;
     width: 50%;
     background-color: white ;
 }
 .about-img{
     height: 290px;
-    /* margin: 0px 30px; */
 }
 .second-div{
     margin: 10px 10px;
@@ -256,11 +253,11 @@ background-color: #6874d0;
     font-style: italic;
 }
 .aboutmain-div{
-    /* border: 1px blue solid; */
     margin-top: 15px;
 }
 
 .naresh{
+    margin-top: 50px;
     margin-right: 45%;
     margin-left: 5%;
 }
