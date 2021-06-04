@@ -43,7 +43,7 @@
     float: right;
 }
 
-.menu a:hover {
+/* .menu a:hover {
     background-color: rgb(33, 192, 33);
     color: black;
     transition: 0.40s;
@@ -52,7 +52,24 @@
 .menu-right a:hover {
     background-color: skyblue;
     color: black;
+} */
+
+.menu a:hover{
+    border-radius: 20px;
+    background-color: rgb(187, 178, 178);
+    color: black;
+    transition: 0.40s;
 }
+.menu-right a:hover{
+    border-radius: 0;
+    background-color: skyblue;
+    color: black;
+}
+#a1{
+   margin-left: 20px;
+}
+
+/* courses */
 
 .text {
     padding-top: 50px;
@@ -64,20 +81,17 @@
     position: fixed;
     width: 20%;
     height: 100%;
-    /* left: 0; */
-    /* top: 0; */
     background: rgb(189, 184, 192);
     text-align: left;
     font-size: larger;
-    /* padding-left: 10px; */
     overflow-y: scroll;
-    text-indent: 10px;
 }
 
 .sidebar li a {
     color: indigo;
     text-decoration: none;
     cursor: pointer;
+    padding: 0px 10px;
 }
 
 .sidebar li a:hover {
@@ -87,9 +101,11 @@
     margin-left: 21%;
     font-size: larger;
     padding-left: 30px;
-    /* position: sticky; */
 }
 
 .discription h1 {
     padding-top: 60px;
+}
+.discription h2{
+    padding-top: 20px;
 }

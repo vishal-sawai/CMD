@@ -31,22 +31,28 @@
     width: 120px;
 }
 .menu-right a{
-    background-color: black;
+    background-color: yellowgreen;
     float: right;
-    color:yellow;
+    color: white;
 }
 .menu-right{
     float: right;
 }
 .menu a:hover{
-    background-color: rgb(33, 192, 33);
+    border-radius: 20px;
+    background-color: rgb(187, 178, 178);
     color: black;
     transition: 0.40s;
 }
 .menu-right a:hover{
+    border-radius: 0;
     background-color: skyblue;
     color: black;
 }
+#a1{
+   margin-left: 20px;
+}
+
 /* home */
 #bg{
     background: url("img/bg2.jpg")no-repeat center center/cover;
@@ -78,10 +84,10 @@
 
 /* Quote */
 .quote{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 126px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: orangered;
 }
 .quote-line{
     font-size: 44px;
