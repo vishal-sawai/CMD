@@ -53,7 +53,11 @@
     background-color: skyblue;
     color: black;
 } */
-
+.menu-right a{
+    background-color: yellowgreen;
+    float: right;
+    color: white;
+}
 .menu a:hover{
     border-radius: 20px;
     background-color: rgb(187, 178, 178);
@@ -72,7 +76,9 @@
 /* courses */
 
 .text {
-    padding-top: 50px;
+    padding: 60px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .sidebar {
@@ -81,21 +87,40 @@
     position: fixed;
     width: 20%;
     height: 100%;
-    background: rgb(189, 184, 192);
+    background: rgb(226, 226, 226);
     text-align: left;
     font-size: larger;
     overflow-y: scroll;
 }
 
 .sidebar li a {
-    color: indigo;
+    color: white;
     text-decoration: none;
     cursor: pointer;
-    padding: 0px 10px;
+    padding: 8px 10px;
+    display: inline-block;
+    width: 100%;
+}
+.sidebar li{
+    background-color: rgb(34, 0, 128);
+    margin: 5px 0px;
+}
+.slidehead{
+    text-align: center;
 }
 
-.sidebar li a:hover {
-    background-color: rgb(153, 147, 147);
+.sub-point li{
+    background-color: white; 
+    margin: 5px 0px;
+}
+.sub-point li a{ 
+    color: brown;
+}
+.sidebar li:hover {
+    background-color: rgba(34, 0, 128, 0.527);
+}
+.sub-point li:hover{
+    background-color: rgba(255, 255, 255, 0.534); 
 }
 .discription {
     margin-left: 21%;
