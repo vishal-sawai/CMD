@@ -20,7 +20,7 @@
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <div class="menu-right">
-                    <a href="admin.html">Admin</a>
+                    <a href="admin.php">Admin</a>
                 </div>
             </div>
 
