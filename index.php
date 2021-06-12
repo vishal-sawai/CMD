@@ -150,7 +150,7 @@
         </div>
         <div class="contact-form">
             <div class="f-form">
-                <form action="">
+                <form action="sql.php" method="POST">
 
                     <label>Name</label><br>
                     <input type="text" name="name" placeholder="Enter Your Name" required /><br>
@@ -164,7 +164,7 @@
                     <label>Feedback</label><br>
                     <textarea placeholder="Feedback" name="feedback" required></textarea><br>
 
-                    <button class="form-btn">Submit</button>
+                    <button class="form-btn" name="submit">Submit</button>
 
                 </form>
             </div>

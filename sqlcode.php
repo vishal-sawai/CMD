@@ -1,5 +1,8 @@
 <?php 
 require_once('connection.php');
+
+// feedback page
+
 session_start();
     if(isset($_POST['Login']))
     {
@@ -25,7 +28,7 @@ session_start();
     }
     else
     {
-        echo 'Not Working Now Guys';
+        echo 'error';
     }    
 
 ?>
