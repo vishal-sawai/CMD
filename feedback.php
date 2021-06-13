@@ -54,7 +54,7 @@ $data = mysqli_query($con, $query);
                 <td><?php echo $rows['Email'] ?></td>
                 <td><?php echo $rows['Phone'] ?></td>
                 <td><?php echo $rows['Feedback'] ?></td>               
-                <td><a href="delete.php?mail=<?php echo $rows['Email']; ?>">Delete</a></td>
+                <td><a href="delete.php?id=<?php echo $rows['id']; ?>">Delete</a></td>
 
 
             </tr>

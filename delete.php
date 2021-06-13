@@ -2,8 +2,8 @@
 
 require_once('connection.php');
 
-$mail = $_GET['mail'];
-$query = "DELETE FROM contact WHERE Email = '$mail'";
+$id = $_GET['id'];
+$query = "DELETE FROM contact WHERE id = '$id'";
 
 $data = mysqli_query($con,$query);
 
