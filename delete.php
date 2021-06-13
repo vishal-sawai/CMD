@@ -9,7 +9,8 @@ $data = mysqli_query($con,$query);
 
 if($data)
 {
-    echo"deleted";
+  echo "<script type='text/javascript'>alert('Feedback deleted');</script>";
+  header("refresh:0,url=feedback.php");
 }
 else
 {

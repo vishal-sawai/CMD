@@ -32,9 +32,8 @@ $data = mysqli_query($con, $query);
         </div>
     </div>
 
-
-    <h1>Feedback</h1>
-    <table class="feedback-table" border="1px">
+ <div class="feed">
+    <table class="feedback-table">
         <th>No</th>
         <th>Name</th>
         <th>Email</th>
@@ -54,11 +53,8 @@ $data = mysqli_query($con, $query);
                 <td><?php echo $rows['Name'] ?></td>
                 <td><?php echo $rows['Email'] ?></td>
                 <td><?php echo $rows['Phone'] ?></td>
-                <td><?php echo $rows['Feedback'] ?></td>
-                <!-- <td><a href='delete.php?mail=$row[Email]'>Delete</td> -->
-                <td><a href="delete.php?mail=<?php echo $row['Email']; ?>">Delete</a></td>
-               
-
+                <td><?php echo $rows['Feedback'] ?></td>               
+                <td><a href="delete.php?mail=<?php echo $rows['Email']; ?>">Delete</a></td>
 
 
             </tr>
@@ -67,7 +63,7 @@ $data = mysqli_query($con, $query);
         }
         ?>
     </table>
-
+    </div>
 <?php
 
 

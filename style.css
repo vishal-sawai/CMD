@@ -427,6 +427,9 @@ footer {
 .feedback-page{
     background-color: #e8ebf0;
 }
+.feed{
+    padding-top: 50px;
+}
 .logoutbtn {
     display: flex;
     margin: auto;
@@ -445,8 +448,37 @@ footer {
 
 .feedback-table {
     margin: auto;
-    margin-top: 23px;
-    width: 80%;
+    margin-top: 0px;
+    width: 100%;
     border: none;
-    border-color: #6874d0;
+}
+.feedback-table th{
+    background-color: rgb(105, 43, 19);
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.feedback-table tr{
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.feedback-table td{
+    padding: 5px 5px;
+}
+.feedback-table a{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.feedback-table a:hover{
+    background-color: rgba(0, 128, 0, 0.632);
+}
+.logoutbtn a:hover{
+    background-color: rgba(0, 0, 139, 0.612);
 }
