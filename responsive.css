@@ -1,0 +1,177 @@
+@media only screen and (max-width:1024px) {
+    /* nav */
+    .menu a {
+        padding: 5px 20px;
+        font-size: 30px;
+    }
+    .m-i {
+        height: 60px;
+        width: 150px;
+    }
+    .menu-right a {
+        height: auto;
+        padding: 14px 0px;
+    }
+    .menu-right {
+        float: right;
+    }
+    /* quote */
+    .quote {
+        height: 300px;
+    }
+    .quote-line {
+        font-size: 50px;
+        margin: 7% 10%;
+    }
+    /* course */
+    hr {
+        margin-top: 20px;
+        width: 80%;
+        height: 3px;
+    }
+    .s-head {
+        font-size: 50px;
+    }
+    .topic {
+        margin: 0px 6%;
+        display: block;
+    }
+    .t {
+        border-radius: 20px;
+        margin-top: 100px;
+        width: 740px;
+        height: 500px;
+        font-size: 35px;
+    }
+    .t-image {
+        width: 100%;
+        height: 380px;
+        border-radius: 20px 20px 0px 0px;
+    }
+    /* About us */
+    .about-person {
+        margin: 1px;
+        width: 90%;
+    }
+    .about-img {
+        height: 390px;
+    }
+    .second-div {
+        margin: 10px 10px;
+    }
+    .second-div h2 {
+        font-size: 50px;
+    }
+    .second-div p {
+        font-size: 38px;
+    }
+    .naresh {
+        margin: 50px 5%;
+    }
+    .vishal {
+        margin: 50px 5%;
+    }
+    /* Contact form */
+    .contact-form {
+        display: block;
+        margin-bottom: 30%;
+    }
+    .f-form {
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .f-form label {
+        font-size: 35px;
+        margin: 0px 20px;
+    }
+    .f-form input, textarea {
+        height: 80px;
+        width: 700px;
+        padding: 8px 10px;
+        font-size: 35px;
+    }
+    .f-form textarea {
+        height: 150px;
+    }
+    .form-btn {
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+        height: 80px !important;
+        width: 740px !important;
+        font-size: 50px;
+        border-radius: 10px;
+    }
+    .c-d img {
+        height: 150px;
+    }
+    .c-d {
+        margin: 10% 0%;
+    }
+    .c-i {
+        padding: 20px 40px;
+    }
+    .c-i h2 {
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .c-i p {
+        font-size: 30px;
+    }
+    .c-social img {
+        margin: 0px 20px;
+        border-radius: 20px;
+    }
+    footer {
+        padding: 20px 0px;
+        font-size: 40px;
+    }
+    /* Admin Page */
+    .Admin {
+        padding: 80% 0%;
+    }
+    .admin-icon {
+        margin: 20% 8%;
+    }
+    .a-name {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .a-icon {
+        height: 180px;
+    }
+    .a-img {
+        height: 100%;
+    }
+    .Login {
+        height: 500px;
+        width: 85%;
+    }
+    .Admin-heading {
+        font-size: 80px;
+    }
+    .Admin-input-div {
+        margin: 70px 0px;
+    }
+    .Admin-input-img {
+        height: 60px;
+        margin: -29px 9px;
+    }
+    .Admin-input {
+        border-bottom: solid 2px;
+        padding: 12px 15px;
+        font-size: 30px;
+    }
+    .Admin-button-div {
+        margin: 35px 0px;
+    }
+    .Admin-button {
+        font-size: 50px;
+        width: 450px;
+        border-radius: 30px;
+    }
+}

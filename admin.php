@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>Admin</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body class="Adminpage">
@@ -13,7 +14,7 @@
 
     <div class="menu">
         <img class="m-i" src="img/logo.jpg">
-        <a href="index.php#home">Home</a>
+        <a id="a1" href="index.php#home">Home</a>
         <a href="index.php#course">Courses</a>
         <a href="index.php#about">About</a>
         <a href="index.php#contact">Contact</a>

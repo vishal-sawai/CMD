@@ -5,6 +5,7 @@
     <title>CMT</title>
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body class="main-page">
@@ -26,11 +27,7 @@
 
             <!-- home -->
             <div id="home">
-                <div class="info">
-                    <h1 class="h-primary"></h1>
-                    <p>
-                    </p>
-                </div>
+
             </div>
 
         </div>
@@ -158,8 +155,8 @@
                     <label>Email</label><br>
                     <input type="email" name="email" placeholder="Enter Your Email" required /><br>
 
-                    <label>Phone No</label><br>
-                    <input type="tel" name="phone" placeholder="Enter Your Phone Number" required /><br>
+                    <label>Phone No</label><span class="noe"></span><br>
+                    <input type="tel" id="n" minlength="10" maxlength="10" name="phone" placeholder="Enter Your Phone Number" required /><br>
 
                     <label>Feedback</label><br>
                     <textarea placeholder="Feedback" name="feedback" required></textarea><br>
@@ -209,6 +206,24 @@
     </div>
 
     <footer>&copy; Copyright 2021 CMT</footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            let no;
+            $(".form-btn").click(function(ev) {
+                no = document.getElementById("n").value;
+                if (isNaN(no)) {
+                    event.preventDefault();
+                    $(".noe").text("*Enter only number");
+                } else {
+                    $(".noe").text("");
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>

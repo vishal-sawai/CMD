@@ -69,30 +69,6 @@
     opacity: 1;
 }
 
-#home {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
-
-.info {
-    color: white;
-    margin: 250px 150px;
-}
-
-#home h1 {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 40px;
-}
-
-#home p {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
 /* Quote */
 
 .quote {
@@ -192,87 +168,6 @@ hr {
 .c-link {
     text-decoration: none;
     color: black;
-}
-
-/* Admin Page */
-
-.Adminpage {
-    background-color: #6874d0;
-}
-
-.Admin {
-    padding-top: 12%;
-    display: flex;
-    margin: auto;
-}
-
-.admin-icon {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 100px;
-}
-
-.a-name {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.a-icon {
-    height: 180px;
-}
-
-.a-img {
-    height: 100%;
-}
-
-.Login {
-    display: flex;
-    margin: auto;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 10px 18px;
-    background-color: rgba(255, 255, 255, 0.973);
-}
-
-.Admin-heading {
-    text-align: center;
-    font-size: 45px;
-}
-
-.Admin-input-div {
-    margin: 25px 0px;
-}
-
-.Admin-input-img {
-    height: 30px;
-    margin: -9px 5px;
-}
-
-.Admin-input {
-    border: none;
-    border-bottom: solid 1px;
-    width: 310px;
-    height: 25px;
-    padding: 2px 5px;
-    outline: none;
-}
-
-.Admin-button-div {
-    margin: 33px 0px;
-}
-
-.Admin-button {
-    cursor: pointer;
-    background-color: darkgreen;
-    font-size: 30px;
-    width: 370px;
-    outline: none;
-    color: white;
-    border-radius: 20px;
-}
-
-.Admin-button:hover {
-    background-color: rgb(7, 75, 7);
 }
 
 /* About us */
@@ -423,13 +318,97 @@ footer {
     width: 100%;
 }
 
+/* Admin Page */
+
+.Adminpage {
+    background-color: #6874d0;
+}
+
+.Admin {
+    padding-top: 12%;
+    display: flex;
+    margin: auto;
+}
+
+.admin-icon {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 100px;
+}
+
+.a-name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.a-icon {
+    height: 180px;
+}
+
+.a-img {
+    height: 100%;
+}
+
+.Login {
+    display: flex;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px;
+    background-color: rgba(255, 255, 255, 0.973);
+}
+
+.Admin-heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.Admin-input-div {
+    margin: 25px 0px;
+}
+
+.Admin-input-img {
+    height: 30px;
+    margin: -9px 5px;
+}
+
+.Admin-input {
+    border: none;
+    border-bottom: solid 1px;
+    width: 310px;
+    height: 25px;
+    padding: 2px 5px;
+    outline: none;
+}
+
+.Admin-button-div {
+    margin: 33px 0px;
+}
+
+.Admin-button {
+    cursor: pointer;
+    background-color: darkgreen;
+    font-size: 30px;
+    width: 370px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.Admin-button:hover {
+    background-color: rgb(7, 75, 7);
+}
+
 /* feedback */
-.feedback-page{
+
+.feedback-page {
     background-color: #e8ebf0;
 }
-.feed{
+
+.feed {
     padding-top: 50px;
 }
+
 .logoutbtn {
     display: flex;
     margin: auto;
@@ -452,20 +431,24 @@ footer {
     width: 100%;
     border: none;
 }
-.feedback-table th{
+
+.feedback-table th {
     background-color: rgb(105, 43, 19);
     color: white;
     font-size: 25px;
     padding: 10px 0px;
 }
-.feedback-table tr{
+
+.feedback-table tr {
     background-color: rgb(255, 255, 255);
     font-size: 17px;
 }
-.feedback-table td{
+
+.feedback-table td {
     padding: 5px 5px;
 }
-.feedback-table a{
+
+.feedback-table a {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -476,9 +459,11 @@ footer {
     font-size: 20px;
     margin: 5px 10px;
 }
-.feedback-table a:hover{
+
+.feedback-table a:hover {
     background-color: rgba(0, 128, 0, 0.632);
 }
-.logoutbtn a:hover{
+
+.logoutbtn a:hover {
     background-color: rgba(0, 0, 139, 0.612);
 }
