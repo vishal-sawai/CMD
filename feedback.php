@@ -32,55 +32,52 @@ $data = mysqli_query($con, $query);
         </div>
     </div>
 
- <div class="feed">
-    <table class="feedback-table">
-        <th>No</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Feedback</th>
-        <th>Option</th>
+    <div class="feed">
+        <table class="feedback-table">
+            <th>No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Feedback</th>
+            <th>Option</th>
 
 
 
-        <?php
-        $i = 1;
-        while ($rows = mysqli_fetch_assoc($data)) {
+            <?php
+            $i = 1;
+            while ($rows = mysqli_fetch_assoc($data)) {
 
-        ?>
-            <tr>
-                <td><?php echo $i ?></td>
-                <td><?php echo $rows['Name'] ?></td>
-                <td><?php echo $rows['Email'] ?></td>
-                <td><?php echo $rows['Phone'] ?></td>
-                <td><?php echo $rows['Feedback'] ?></td>               
-                <td><a href="delete.php?id=<?php echo $rows['id']; ?>">Delete</a></td>
+            ?>
+                <tr>
+                    <td><?php echo $i ?></td>
+                    <td><?php echo $rows['Name'] ?></td>
+                    <td><?php echo $rows['Email'] ?></td>
+                    <td><?php echo $rows['Phone'] ?></td>
+                    <td><?php echo $rows['Feedback'] ?></td>
+                    <td><a href="delete.php?id=<?php echo $rows['id']; ?>">Delete</a></td>
 
 
-            </tr>
-        <?php
-            $i++;
-        }
-        ?>
-    </table>
+                </tr>
+            <?php
+                $i++;
+            }
+            ?>
+        </table>
     </div>
-<?php
+    <?php
 
 
-session_start();
+    session_start();
 
-if(isset($_SESSION['User']))
-{
-    // echo ' Well Come ' . $_SESSION['User'].'<br/>';
+    if (isset($_SESSION['User'])) {
+        // echo ' Well Come ' . $_SESSION['User'].'<br/>';
 
-    echo '<div class="logoutbtn"><a href="logout.php?logout">LogOut</a></div>';
-}
-else
-{
-    header("location:admin.php");
-}
+        echo '<div class="logoutbtn"><a href="logout.php?logout">LogOut</a></div>';
+    } else {
+        header("location:admin.php");
+    }
 
-?>
+    ?>
 
 
 

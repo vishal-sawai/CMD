@@ -34,43 +34,30 @@
 }
 
 .menu-right a {
-    background-color: black;
+    background-color: yellowgreen;
     float: right;
-    color: yellow;
+    color: white;
 }
 
 .menu-right {
     float: right;
 }
 
-/* .menu a:hover {
-    background-color: rgb(33, 192, 33);
+.menu a:hover {
+    border-radius: 15px;
+    background-color: rgb(187, 178, 178);
     color: black;
     transition: 0.40s;
 }
 
 .menu-right a:hover {
-    background-color: skyblue;
-    color: black;
-} */
-.menu-right a{
-    background-color: yellowgreen;
-    float: right;
-    color: white;
-}
-.menu a:hover{
-    border-radius: 20px;
-    background-color: rgb(187, 178, 178);
-    color: black;
-    transition: 0.40s;
-}
-.menu-right a:hover{
     border-radius: 0;
     background-color: skyblue;
     color: black;
 }
-#a1{
-   margin-left: 20px;
+
+#a1 {
+    margin-left: 20px;
 }
 
 /* courses */
@@ -101,27 +88,33 @@
     display: inline-block;
     width: 100%;
 }
-.sidebar li{
+
+.sidebar li {
     background-color: rgb(34, 0, 128);
     margin: 5px 0px;
 }
-.slidehead{
+
+.slidehead {
     text-align: center;
 }
 
-.sub-point li{
-    background-color: white; 
+.sub-point li {
+    background-color: white;
     margin: 5px 0px;
 }
-.sub-point li a{ 
+
+.sub-point li a {
     color: brown;
 }
+
 .sidebar li:hover {
     background-color: rgba(34, 0, 128, 0.527);
 }
-.sub-point li:hover{
-    background-color: rgba(255, 255, 255, 0.534); 
+
+.sub-point li:hover {
+    background-color: rgba(255, 255, 255, 0.534);
 }
+
 .discription {
     margin-left: 21%;
     font-size: larger;
@@ -131,6 +124,7 @@
 .discription h1 {
     padding-top: 60px;
 }
-.discription h2{
+
+.discription h2 {
     padding-top: 20px;
 }

@@ -5,7 +5,6 @@
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>Admin</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body class="Adminpage">
